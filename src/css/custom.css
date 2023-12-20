@@ -107,7 +107,15 @@ p {
   color: #000000; 
   background-color: #ffe6fc; 
 }
+/*Dark mode color adjustments for sidebar elements*/
+[data-theme='dark'] .menu__link {
+  color: #ffffff;
+  background-color: #1C1C1D; 
+}
 
+[data-theme='dark'] .menu__link:hover {
+  background-color: #7e006f; 
+}
 
 
 /*footer*/
@@ -115,4 +123,3 @@ p {
   background-color: #000000; 
   color: #ffffff; 
 }
-
