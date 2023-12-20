@@ -1,23 +1,18 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
+/*colour scheme*/
+/*light mode*/
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #F926E1;
+  --ifm-color-primary-dark: #b506a0;
+  --ifm-color-primary-darker: #700063;
+  --ifm-color-primary-darkest: #000000;
+  --ifm-color-primary-light: #2AB5FB;
+  --ifm-color-primary-lighter: #45c1ff;
+  --ifm-color-primary-lightest: #5ec9ff;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: #F926E1;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/*dark mode*/
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
@@ -28,3 +23,96 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+/*header*/
+.navbar.navbar--fixed-top {
+  background-color: #000000; 
+}
+
+.navbar.navbar--fixed-top a,
+.navbar.navbar--fixed-top span {
+  color: #ffffff; 
+}
+
+.navbar.navbar--fixed-top {
+  height: auto !important;
+}
+
+.navbar.navbar--fixed-top nav > div > div > ul {
+  padding: 8px !important; 
+}
+
+.navbar.navbar--fixed-top a.navbar__brand {
+  padding: 8px !important; 
+}
+
+.navbar.navbar--fixed-top ul.navbar__links {
+  padding: 8px !important; 
+}
+
+
+
+/*font family*/
+:root {
+  --custom-font: 'Manrope', sans-serif;
+}
+
+body {
+  font-family: var(--custom-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--custom-font);
+}
+
+p {
+  font-family: var(--custom-font);
+}
+
+/*font sizes*/
+:root {
+  --base-font-size: 16px; 
+}
+
+body {
+  font-size: var(--base-font-size);
+}
+
+h1 {
+  font-size: 2.4rem; 
+}
+
+h2 {
+  font-size: 1.6rem; 
+}
+
+h3 {
+  font-size: 1.2rem; 
+}
+
+p {
+  font-size: 1rem;
+}
+
+
+
+/*sidebar*/
+.menu__link {
+  color: #000000;
+  background-color: #ffffff; 
+}
+
+.menu__link:hover {
+  color: #000000; 
+  background-color: #ffe6fc; 
+}
+
+
+
+/*footer*/
+.footer.footer--dark {
+  background-color: #000000; 
+  color: #ffffff; 
+}
+
